@@ -76,3 +76,13 @@ variable "kuiperip" {
     type = string
     description = "IP of Kuiper server for WinRM Firewall rule"
 }
+
+variable "accountname" {
+    type = string
+    description = "Name of the Storage Account containing post deploy script"
+}
+
+variable "accountkey" {
+    type = string
+    description = "Access Key to Storage Account containing post deploy script"
+}

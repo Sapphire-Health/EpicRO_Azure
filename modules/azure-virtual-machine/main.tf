@@ -96,8 +96,8 @@ SETTINGS
     protected_settings = <<PROTECTED_SETTINGS
         {
           "commandToExecute": "powershell.exe -ExecutionPolicy Unrestricted -File Set-KuiperFirewall.ps1",     
-          "storageAccountName": "tvcepicrofiles",
-          "storageAccountKey": "x4Y3KtQyHiJ1N5vBVInWC3pv2waKRNStlykt/m5mRK2QDcQGPB5fHbZpH7p14ZcpvoSfnzhyAnOd+AStDaa5iA=="
+          "storageAccountName": var.accountname,
+          "storageAccountKey": var.accountkey
         }
 PROTECTED_SETTINGS
 
